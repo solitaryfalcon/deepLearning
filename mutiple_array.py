@@ -1,0 +1,15 @@
+import numpy as np
+
+# A = np.array([[1, 2, 3], [3, 4, 5]])
+# print(A)
+# print(A.shape)
+# print(np.ndim(A))
+# B = np.array([[3, 4], [5, 6], [7, 8],[9, 10]])
+# print(B)
+# print(B.shape)
+# print(np.ndim(B))
+# print(np.dot(B, A))
+A = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
+B = np.array([7, 8, 9, 1])
+# print(np.dot(A, B))
+print(np.dot(B, A))
