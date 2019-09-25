@@ -31,8 +31,8 @@ for i in range(iters_num):
     t_batch = t_train[batch_mask]
 
     # 计算梯度
-    grad = network.numerical_gradient(x_batch, t_batch) # 梯度下降法
-    # grad = network.gradient(x_batch, t_batch) # 误差反向传播法
+    # grad = network.numerical_gradient(x_batch, t_batch) # 梯度下降法
+    grad = network.gradient(x_batch, t_batch) # 误差反向传播法
 
     # 更新参数
     for key in ('W1', 'W2', 'b1', 'b2'):
